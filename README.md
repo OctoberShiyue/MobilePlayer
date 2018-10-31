@@ -30,9 +30,5 @@ https://data.vod.itc.cn/ip?new=/10/58/23KcXAZxSVidaWhApp2nCA.mp4
 
 ## 4. 预览: 
 
-、、、
-
-<h1>测试</h1>
-、、、
-
+<iframe height=498 width=510 src='http://player.youku.com/embed/XMzg3MzE1MDY1Mg==' frameborder=0 'allowfullscreen'></iframe>
 
