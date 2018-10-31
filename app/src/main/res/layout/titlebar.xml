@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#ff3097fd"
+    android:orientation="horizontal">
+<ImageView
+    android:src="@drawable/ic_topbanner_logo"
+    android:layout_marginLeft="8dp"
+    android:layout_gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_search"
+        android:drawableLeft="@drawable/tv_search_drawable_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:drawablePadding="3dp"
+        android:textSize="14sp"
+        android:layout_gravity="center_vertical"
+        android:text="全网搜索"
+        android:background="@drawable/tv_search_bg_selector"
+        android:textColor="@drawable/tv_search_textcolor_selector"
+        android:clickable="true"
+        android:onClick="onSearch"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:onClick="onGame"
+        >
+        <TextView
+            android:id="@+id/tv_game"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_topbanner_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_alignRight="@id/tv_game"
+            android:background="@drawable/dot"
+            android:layout_height="6dp" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_record"
+        android:onClick="onRecord"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_topbanner_record"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

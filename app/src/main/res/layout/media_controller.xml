@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@drawable/bg_player_status"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="视频名字"
+                android:textColor="#ffff"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/iv_battery"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_battery_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"/>
+            <TextView
+                android:id="@+id/tv_system_item"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#ffff"
+                android:text="12:00"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/bg_player_top_control"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_voice"
+                android:background="@drawable/btn_voice_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <SeekBar
+                android:id="@+id/seekbarAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="6dp"
+                android:maxHeight="6dp"
+                android:progress="0"
+                android:thumb="@drawable/progress_thumb"
+                android:progressDrawable="@drawable/progress_horizontal"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_swich_player"
+                android:background="@drawable/btn_switch_player_selectoy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/bg_player_bottom_seekbar"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_current_item"
+                android:text="0:00"
+                android:textColor="#ffff"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <SeekBar
+                android:id="@+id/seekbarVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="6dp"
+                android:maxHeight="6dp"
+                android:progress="0"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:thumb="@drawable/progress_thumb"
+                android:progressDrawable="@drawable/progress_horizontal"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/tv_duration"
+                android:text="20:00"
+                android:textColor="#ffff"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/bg_player_bottom_seekbar"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_exit_selector"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_pre_selector"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_video_start_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_video_start_pause_selector"
+                android:layout_weight="1"/>
+            <Button
+            android:id="@+id/btn_video_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_video_next_selector"
+            android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_video_video_switch_scree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_video_switch_scree_full_selector"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

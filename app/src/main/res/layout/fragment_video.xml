@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="www.r886.top.mobileplayer.fragment.VideoFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_opennetvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        >
+            <LinearLayout
+                android:focusableInTouchMode="true"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="打开网络视频:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_opennetvideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="http://v.ifeng.com/include/exterior.swf?guid=0569261b-3c10-4366-bc6e-48e64620f7a3"
+
+
+                    />
+                <Button
+                    android:id="@+id/btn_opennetvideo"
+                    android:text="打开"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        <View
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#8888"
+            />
+    </LinearLayout>
+
+<ListView
+    android:divider="@null"
+    android:id="@+id/lv_listview"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:layout_below="@id/ll_opennetvideo"
+    android:padding="3dp"
+    >
+
+</ListView>
+    <TextView
+        android:id="@+id/tv_nomedia"
+        android:text="没有发现视频...."
+        android:layout_centerInParent="true"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>
