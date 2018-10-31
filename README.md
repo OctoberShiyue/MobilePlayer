@@ -30,7 +30,5 @@ https://data.vod.itc.cn/ip?new=/10/58/23KcXAZxSVidaWhApp2nCA.mp4
 
 ## 4. 预览: 
 
-<video src="http://www.w3school.com.cn/i/movie.ogg" controls="controls">
-您的浏览器不支持 video 标签。
-</video>
+![图片1](https://im.ezgif.com/tmp/ezgif-1-9ca3d25950da.gif)
 
