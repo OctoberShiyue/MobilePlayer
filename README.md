@@ -26,3 +26,6 @@ http://my.tv.sohu.com/play/videonew.do?vid=101104158
 https://data.vod.itc.cn/ip?new=/10/58/23KcXAZxSVidaWhApp2nCA.mp4
 
 
+## 4.预览
+![image1](https://github.com/OctoberShiyue/MobilePlayer/blob/master/ezgif-1-9ca3d25950da.gif)
+![image2](https://github.com/OctoberShiyue/MobilePlayer/blob/master/ezgif-1-54685f4592c7.gif)
