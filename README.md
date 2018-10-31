@@ -13,6 +13,9 @@
 还差本地音乐播放和网络音乐。
 
  ## 3. 搜狐视频接口:
+ 
+ 自己抓包分析获取到的，目前还能用。 
+ 
  搜狐视频推荐获取
 
 https://rc.vrs.sohu.com/rc/like?u=1540801904&pageSize=20
@@ -25,6 +28,9 @@ http://my.tv.sohu.com/play/videonew.do?vid=101104158
 
 https://data.vod.itc.cn/ip?new=/10/58/23KcXAZxSVidaWhApp2nCA.mp4
 
+## 4. 预览: 
+
+![图片1](https://im.ezgif.com/tmp/ezgif-1-9ca3d25950da.gif)
 
 ## 4.预览
 ![image1](https://github.com/OctoberShiyue/MobilePlayer/blob/master/ezgif-1-9ca3d25950da.gif)
